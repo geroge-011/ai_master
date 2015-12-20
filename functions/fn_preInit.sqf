@@ -4,7 +4,7 @@
 asr_ai3_main_enabled = 0;
 0 spawn {
 	uiSleep 10;
-	while {isNil "mission_AI_controller_name"} do {uiSleep 1;};
+	//while {isNil "mission_AI_controller_name"} do {uiSleep 1;};
 	if !(mission_ai_controller) exitWith { };
 	aiMaster_groups = [ ];
 	aiMaster_cachedGroups = [ ];
